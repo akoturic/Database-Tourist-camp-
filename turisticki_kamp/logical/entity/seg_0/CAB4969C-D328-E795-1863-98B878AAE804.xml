@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CAB4969C-D328-E795-1863-98B878AAE804" name="prijava">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-25 21:59:22 UTC</createdTime>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<engineerTo>
+<item key="F845206B-CFA9-EDEB-68C6-0104A6B06967" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="gost_id" id="021EAF61-0D0F-BB5D-5D18-8B8A996F10BE">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-27 15:46:23 UTC</createdTime>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<engineerTo>
+<item key="F845206B-CFA9-EDEB-68C6-0104A6B06967" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ime" id="0894CDF8-DAD7-CCC7-1CFD-868841D71EBA">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-25 21:59:42 UTC</createdTime>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<engineerTo>
+<item key="F845206B-CFA9-EDEB-68C6-0104A6B06967" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prezime" id="954BED7B-C255-96A6-7C78-3DC4D57D8B84">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-25 21:59:42 UTC</createdTime>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<engineerTo>
+<item key="F845206B-CFA9-EDEB-68C6-0104A6B06967" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="broj_dokumenta" id="6DA14C74-3028-494C-144A-C0236154AD72">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-25 21:59:43 UTC</createdTime>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<engineerTo>
+<item key="F845206B-CFA9-EDEB-68C6-0104A6B06967" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum_rodenja" id="FAC9BB3A-E1AA-CBA8-55DF-B1416990640B">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-26 14:27:35 UTC</createdTime>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<engineerTo>
+<item key="F845206B-CFA9-EDEB-68C6-0104A6B06967" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="br_rezervacije" id="DE01BD7D-58DD-44E5-565F-1A72069DF18E">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-26 11:24:09 UTC</createdTime>
+<generatorID>C587C4A3-DD9C-E98B-24B0-BC62EC460494</generatorID>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<engineerTo>
+<item key="F845206B-CFA9-EDEB-68C6-0104A6B06967" value="true"/>
+</engineerTo>
+<referedAttribute>A849C74A-10D7-43B0-142F-C8FA520D1142</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DEA1674C-79E5-99D4-F8F3-BFE38E7BA32B" name="Gost_prijava PK">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-27 15:46:40 UTC</createdTime>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F845206B-CFA9-EDEB-68C6-0104A6B06967" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>021EAF61-0D0F-BB5D-5D18-8B8A996F10BE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

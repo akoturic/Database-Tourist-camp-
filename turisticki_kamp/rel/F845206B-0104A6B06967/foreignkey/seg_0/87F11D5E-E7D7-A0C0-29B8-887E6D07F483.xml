@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="87F11D5E-E7D7-A0C0-29B8-887E6D07F483" containerWithKeyObject="4C59DE23-1994-2643-2BEB-63C6EF40B33E" localFKIndex="60EA0A27-7094-AB91-D2BD-867021AEE812" name="rezervacija_unajmljivac_FK">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-27 15:40:17 UTC</createdTime>
+<generatorID>640EAB8F-BFF1-6853-7E2A-CD0058024C70</generatorID>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<referredTableLongName>unajmljivac</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C2F7DAA1-4AF8-EAE0-BA98-980B7DD96901</referredTableID>
+<keyObject>21D04DA2-2459-0007-34BE-513B844F2503</keyObject>
+<referredKeyID>21D04DA2-2459-0007-34BE-513B844F2503</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>unajmljivac_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

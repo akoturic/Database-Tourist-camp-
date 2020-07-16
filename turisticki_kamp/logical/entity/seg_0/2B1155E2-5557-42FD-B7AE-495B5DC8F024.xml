@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2B1155E2-5557-42FD-B7AE-495B5DC8F024" name="troskovi">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-26 12:05:47 UTC</createdTime>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<engineerTo>
+<item key="F845206B-CFA9-EDEB-68C6-0104A6B06967" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="trosak_id" id="BA5B66D8-FD18-F028-FE1D-B96525FA54B0">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-27 15:44:55 UTC</createdTime>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<engineerTo>
+<item key="F845206B-CFA9-EDEB-68C6-0104A6B06967" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum" id="A27B4251-7C18-34D5-1C9C-B1950ADA80C2">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-26 12:06:03 UTC</createdTime>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<engineerTo>
+<item key="F845206B-CFA9-EDEB-68C6-0104A6B06967" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kolicina" id="C12B1361-028B-73C8-FDBD-D08579D6CB82">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-26 12:06:52 UTC</createdTime>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<engineerTo>
+<item key="F845206B-CFA9-EDEB-68C6-0104A6B06967" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naziv_usluge" id="0D0D1706-15DA-17CD-C9DB-C58574D94475">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-26 12:10:01 UTC</createdTime>
+<generatorID>E0F5DDE2-C2C5-188B-8E86-A6439612FF18</generatorID>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<engineerTo>
+<item key="F845206B-CFA9-EDEB-68C6-0104A6B06967" value="true"/>
+</engineerTo>
+<referedAttribute>41C56CB5-A65E-2744-42B9-96935887EFD2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="br_rezervacije" id="E6DD9D9C-725F-2106-3E26-2493D3CE8BD4">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-26 12:09:01 UTC</createdTime>
+<generatorID>8C7C9541-32D2-0DC2-A3F8-6483171CFF7A</generatorID>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<engineerTo>
+<item key="F845206B-CFA9-EDEB-68C6-0104A6B06967" value="true"/>
+</engineerTo>
+<referedAttribute>A849C74A-10D7-43B0-142F-C8FA520D1142</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BAAB4739-9D2D-4CA1-8F3E-F56207533687" name="Sekundarni troskovi PK">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-27 15:45:01 UTC</createdTime>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F845206B-CFA9-EDEB-68C6-0104A6B06967" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BA5B66D8-FD18-F028-FE1D-B96525FA54B0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

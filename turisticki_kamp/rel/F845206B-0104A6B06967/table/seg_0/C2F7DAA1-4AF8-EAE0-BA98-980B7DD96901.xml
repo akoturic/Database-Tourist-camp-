@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C2F7DAA1-4AF8-EAE0-BA98-980B7DD96901" name="unajmljivac">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-27 15:40:17 UTC</createdTime>
+<generatorID>0BB524F4-2906-1D2A-3D07-4A82C0A89BA5</generatorID>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ime" id="8F7030CF-A781-066E-98B9-F1D5E7CE1286">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-27 15:40:17 UTC</createdTime>
+<generatorID>680DCC40-9171-7163-F29A-092B0A6321F8</generatorID>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prezime" id="C820D331-F5FE-C5CC-9F77-C77E2D50EC1E">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-27 15:40:17 UTC</createdTime>
+<generatorID>027D45FD-B7CF-AA9B-54E8-B22BF211642F</generatorID>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefon" id="B03C38CC-B8E1-0775-1A25-14F31D8B54D0">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-27 15:40:17 UTC</createdTime>
+<generatorID>AC47E43F-52EA-E1B7-1621-F1A5A9D5DCA3</generatorID>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="4368D8F4-11DC-68AB-B307-B51D731A00C5">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-27 15:40:17 UTC</createdTime>
+<generatorID>57CA482B-775A-4C06-94DD-C26FD6242749</generatorID>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="unajmljivac_id" id="AACB8112-8A49-F41C-B730-C6E90281DD31">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-27 15:40:17 UTC</createdTime>
+<generatorID>C56879C3-6EEC-6DB4-BB81-D2AB5ACC5896</generatorID>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="21D04DA2-2459-0007-34BE-513B844F2503" name="unajmljivac_PK">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-27 15:40:17 UTC</createdTime>
+<generatorID>D241F683-4B99-55AD-75F8-67A9A40722EC</generatorID>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AACB8112-8A49-F41C-B730-C6E90281DD31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

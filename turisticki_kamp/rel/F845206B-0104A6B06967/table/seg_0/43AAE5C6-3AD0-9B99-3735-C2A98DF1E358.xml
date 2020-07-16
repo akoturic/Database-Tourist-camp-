@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="43AAE5C6-3AD0-9B99-3735-C2A98DF1E358" name="parcela">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-27 15:40:17 UTC</createdTime>
+<generatorID>5BA99372-99FA-B4DA-7B55-CE11E5C1A429</generatorID>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="br_parcele" id="F602F953-3EC2-49F8-0211-CE44E6DB4FBB">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-27 15:40:17 UTC</createdTime>
+<generatorID>57A9B8FA-B571-F17F-7ED8-88E3689E3874</generatorID>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vrsta_parcele" id="352CA5DF-84E8-4CBE-076F-59AD6FBC220C">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-27 15:40:17 UTC</createdTime>
+<generatorID>D92E1F96-ECDB-C296-A8F6-1D722121BA54</generatorID>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opis_parcele" id="C294C447-2035-F4F5-A68E-E6E5CDB2DF94">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-27 15:40:17 UTC</createdTime>
+<generatorID>CBDFE21A-6F13-24B4-608D-1B447E4A8917</generatorID>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C7472E65-F314-814C-60DD-9161582D2D06" name="parcela_PK">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-27 15:40:17 UTC</createdTime>
+<generatorID>FBB77631-6EAC-618C-E227-0F5C85658209</generatorID>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F602F953-3EC2-49F8-0211-CE44E6DB4FBB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

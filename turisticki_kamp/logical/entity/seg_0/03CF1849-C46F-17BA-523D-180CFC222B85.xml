@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="03CF1849-C46F-17BA-523D-180CFC222B85" name="rezervacija">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-25 18:58:42 UTC</createdTime>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<engineerTo>
+<item key="F845206B-CFA9-EDEB-68C6-0104A6B06967" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="br_rezervacije" id="A849C74A-10D7-43B0-142F-C8FA520D1142">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-25 18:58:57 UTC</createdTime>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<engineerTo>
+<item key="F845206B-CFA9-EDEB-68C6-0104A6B06967" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prijava" id="DE8E8E57-650D-9A4A-C61C-46AAC4FFC6FE">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-25 18:59:38 UTC</createdTime>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<engineerTo>
+<item key="F845206B-CFA9-EDEB-68C6-0104A6B06967" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="odjava" id="72B360CB-1B4A-C80A-282C-AB1FD4CB998D">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-25 19:01:38 UTC</createdTime>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<engineerTo>
+<item key="F845206B-CFA9-EDEB-68C6-0104A6B06967" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="osobe" id="19EA83BE-4D5A-3072-0119-5D9FA3167852">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-26 11:02:19 UTC</createdTime>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<engineerTo>
+<item key="F845206B-CFA9-EDEB-68C6-0104A6B06967" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kucni_ljubimci" id="DF2FFAFA-6FB9-6BFA-3721-AABACFDCF2F9">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-26 14:15:24 UTC</createdTime>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<engineerTo>
+<item key="F845206B-CFA9-EDEB-68C6-0104A6B06967" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="napomena" id="D17BFBDD-3EBD-1A80-482E-B570E215CBB6">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-27 16:39:12 UTC</createdTime>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<engineerTo>
+<item key="F845206B-CFA9-EDEB-68C6-0104A6B06967" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="br_parcele" id="B159AF36-FF73-18AE-EC86-C87EE9D73C72">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-26 12:22:34 UTC</createdTime>
+<generatorID>57C36B33-46BD-5ADE-18B2-936C74A1AD0D</generatorID>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<engineerTo>
+<item key="F845206B-CFA9-EDEB-68C6-0104A6B06967" value="true"/>
+</engineerTo>
+<referedAttribute>57A9B8FA-B571-F17F-7ED8-88E3689E3874</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="unajmljivac_id" id="E25D31B1-47CE-E43F-3751-0F1335A2E7F6">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-26 11:23:08 UTC</createdTime>
+<generatorID>640EAB8F-BFF1-6853-7E2A-CD0058024C70</generatorID>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<engineerTo>
+<item key="F845206B-CFA9-EDEB-68C6-0104A6B06967" value="true"/>
+</engineerTo>
+<referedAttribute>C56879C3-6EEC-6DB4-BB81-D2AB5ACC5896</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F2E282AB-2963-70EB-B56E-C46BC83210E1" name="Rezervacija PK">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-25 18:59:35 UTC</createdTime>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F845206B-CFA9-EDEB-68C6-0104A6B06967" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A849C74A-10D7-43B0-142F-C8FA520D1142</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

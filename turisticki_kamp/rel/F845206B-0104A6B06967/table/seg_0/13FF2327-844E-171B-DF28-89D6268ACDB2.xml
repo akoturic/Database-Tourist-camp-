@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="13FF2327-844E-171B-DF28-89D6268ACDB2" name="troskovi">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-27 15:40:17 UTC</createdTime>
+<generatorID>2B1155E2-5557-42FD-B7AE-495B5DC8F024</generatorID>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="datum" id="9C01D81A-6670-5476-298C-2761FC8E21A2">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-27 15:40:17 UTC</createdTime>
+<generatorID>A27B4251-7C18-34D5-1C9C-B1950ADA80C2</generatorID>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kolicina" id="E77E9E2C-55E1-287E-209B-42F8F332FF1F">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-27 15:40:17 UTC</createdTime>
+<generatorID>C12B1361-028B-73C8-FDBD-D08579D6CB82</generatorID>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rezervacija_br_rezervacije" id="ABD3843A-2BCC-E7D5-A86F-1FD51AD57F4A">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-27 15:40:17 UTC</createdTime>
+<generatorID>E6DD9D9C-725F-2106-3E26-2493D3CE8BD4</generatorID>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="433C0D9F-0425-4E6E-579C-0F9029320EB5" referredColumn="9325B04A-0E63-C4A9-5E0F-BD5878B881C2"/>
+</associations>
+</Column>
+<Column name="ponuda_cjenik_naziv_usluge" id="9E3F0533-C6E3-F29A-3F16-D58F166CF3AC">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-27 15:40:17 UTC</createdTime>
+<generatorID>0D0D1706-15DA-17CD-C9DB-C58574D94475</generatorID>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0274E108-EDB0-F899-A407-9BC2C3BF45B6" referredColumn="3356DE9E-551F-C36F-8ACC-5003ED117FE3"/>
+</associations>
+</Column>
+<Column name="trosak_id" id="946410DE-D9E5-E0FB-CE18-50DE13509FF4">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-27 15:46:57 UTC</createdTime>
+<generatorID>BA5B66D8-FD18-F028-FE1D-B96525FA54B0</generatorID>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2F251CEB-4079-F8C5-DB00-D3C99FD509AE" name="troskovi_PK">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-27 15:46:57 UTC</createdTime>
+<generatorID>BAAB4739-9D2D-4CA1-8F3E-F56207533687</generatorID>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="946410DE-D9E5-E0FB-CE18-50DE13509FF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="07831245-7947-A000-6EDC-B7132DCB1F98" name="troskovi_rezervacija_FK">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-27 15:40:17 UTC</createdTime>
+<generatorID>8C7C9541-32D2-0DC2-A3F8-6483171CFF7A</generatorID>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABD3843A-2BCC-E7D5-A86F-1FD51AD57F4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C04CE5ED-3E62-4E43-C1BB-F7B4FBF7F15D" name="troskovi_ponuda_cjenik_FK">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-27 15:40:17 UTC</createdTime>
+<generatorID>E0F5DDE2-C2C5-188B-8E86-A6439612FF18</generatorID>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E3F0533-C6E3-F29A-3F16-D58F166CF3AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

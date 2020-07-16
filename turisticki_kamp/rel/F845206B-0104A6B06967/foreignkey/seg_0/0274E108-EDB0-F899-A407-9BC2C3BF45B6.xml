@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0274E108-EDB0-F899-A407-9BC2C3BF45B6" containerWithKeyObject="13FF2327-844E-171B-DF28-89D6268ACDB2" localFKIndex="C04CE5ED-3E62-4E43-C1BB-F7B4FBF7F15D" name="troskovi_ponuda_cjenik_FK">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-27 15:40:17 UTC</createdTime>
+<generatorID>E0F5DDE2-C2C5-188B-8E86-A6439612FF18</generatorID>
+<ownerDesignName>turisticki_kamp</ownerDesignName>
+<referredTableLongName>ponuda_cjenik</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>77E39130-7EA9-619B-FAD4-093992A3F57F</referredTableID>
+<keyObject>83038C03-F80B-80E5-7263-B124DA6B81EB</keyObject>
+<referredKeyID>83038C03-F80B-80E5-7263-B124DA6B81EB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>naziv_usluge</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

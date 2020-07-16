@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="turisticki_kamp" id="83D5F0ED-F5C0-41D6-7EE3-1FC9462458A1" version="3.5">
+<createdBy>kotur</createdBy>
+<createdTime>2020-06-25 18:28:27 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>83D5F0ED-F5C0-41D6-7EE3-1FC9462458A1</designId>
+</OSDM_Design>
